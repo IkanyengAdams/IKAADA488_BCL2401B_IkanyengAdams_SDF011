@@ -13,7 +13,7 @@
 </head>
 
 <body class="bg-gray-100">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="container  sm:px-6 lg:px-8">
         <div class="relative flex flex-wrap mx-auto items-center justify-between w-full bg-white py-7 shrink-0">
             <div class="px-4 ">
             <img class="h-8"
@@ -94,22 +94,22 @@
             <button class="px-4 py-2 text-sm font-bold teext-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
         </div>
            
-     <div class="w-full">
-            <!-- Wide full-width container for additional content -->
+     <!-- <div class="w-full">
+        
         </div>
         <div class="container mx-auto">
-            <!-- Centered container for more content -->
+        
         </div>
         <div class="w-full">
-            <!-- Wide full-width container for additional content -->
+        
         </div>
         <div class="w-full">
-            <!-- Wide full-width container for additional content -->
+        
+    </div> -->
     </div>
-    </div>
-    <div class="w-full bg-green-500">
-        <!-- Full-width footer container with green background -->
-    </div>
+    <!-- <div class="w-full bg-green-500">
+       
+    </div> -->
 
     
 
@@ -465,17 +465,29 @@
 <!-- FOOTER -->
 <div class="w-full bg-green-500">
     <div class="container flex flex-col mx-auto">
-    <div class="flex flex-col items-center gap-6 mb-8">
+    <div class="flex flex-col items-center w-full my-20">
+        <div class="flex flex-col items-center"></div>
         <!-- socials -->
         <div class="flex items-center gap-8">
-            <a href="javascript:void(0)">
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z" fill="currentColor"></path>
+                    <mask id="mask0_3320_6483" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="3" width="10" height="18">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z" fill="black"></path>
+                    </mask>
+                    <g mask="url(#mask0_3320_6483)">
+                    </g>
+                </svg>
         </a>
         </div>
         <!-- copyright -->
+    <div class="flex items-center">
+        <p class="text-base font-normal leading-7 text-center">2024 Cache Bank. All rights reserved</p>
+
+    </div>
     </div>    
     </div>
-    
-</div>
+    </div>
     
     <script>
     document.getElementById("mobile-menu-toggle").addEventListener("click", function() {document.getElementById('mobile-menu').classList.toggle('hidden');})
