@@ -14,12 +14,14 @@
 
 <body class="bg-gray-100">
     <div class="container  sm:px-6 lg:px-8">
+        <!-- Header section with cache bank logo and navigation -->
         <div class="relative flex flex-wrap mx-auto items-center justify-between w-full bg-white py-7 shrink-0">
             <div class="px-4 ">
-            <img class="h-8"
+            <!-- cache bank logo -->
+                <img class="h-8"
              src="assets/component-1/navigation/cache-bank-logo.png">
            </div>
-
+            <!-- desktop navigation links -->
          <div class="hidden md:flex item-center justify-between gap-12 text-black">
 
            <a
@@ -38,12 +40,14 @@
             href="javascript:void(0)" 
             class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
          </div>
-
+            <!--Buttons for login and sign-up -->
         <div class="hidden md:flex items-center gap-8">
             <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
             <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
         </div>
+            <!-- Mobile menu toggle button -->
         <button class="md:hidden p-4" id="mobile-menu-toggle">
+            <!-- Mobile menu icon -->
             <svg
                 fill="none"
                 viewBox="0 0 24 24"
@@ -72,6 +76,7 @@
                 </defs>
             </svg>
         </button>
+            <!-- Mobile menu section -->
         <div id="mobile-menu" class="absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full hidden"> 
             
             <a
@@ -89,23 +94,28 @@
             <a 
             href="javascript:void(0)" 
             class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900">Contact</a>
-
+              <!-- Buttons for login and sign-up in mobile menu -->
             <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
             <button class="px-4 py-2 text-sm font-bold teext-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
         </div>
            
      </div>
-    
 
+     <!-- Toggle the visibility of the mobile menu when the mobile menu toggle butt-->
+     <script>
+        document.getElementById("mobile-menu-toggle").addEventListener("click", function() {document.getElementById('mobile-menu').classList.toggle('hidden');})
+        </script>
     
+      <!-- COMPONENT 2 -->
 
-    <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
+     <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
+            <!-- Left Section - Introduction -->
         <div class="flex flex-col justify-centercol-span-1 text-center lg:text-start">
             <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">The Clever Place to Keep Your Cache</h1>
-
+            <!-- Description -->
             <p class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey=900">Cache Bank is designed exclusively for software developers. We understand your financial needs are as unique as the code you write. Our services offer cutting-edge financial solutions that help you take care of your cash.</p>
-        
-         <div class="flex flex-col items-center gap-4 lg:flex-row">
+            <!-- Call-to-action Buttons -->
+            <div class="flex flex-col items-center gap-4 lg:flex-row">
             <button class="flex item-center py-4 text-sm font-bold text-white px-7 focus:ring-4 focus:ring-purple-blue-100 transition duration-300 rounded-xl bg-green-500 hover:bg-pink-500">
                 Join Cache Now
             </button>
@@ -117,22 +127,24 @@
         
         </div>
 
-
+                <!-- Right Section - Image -->
         <div class="items-center justify-end hidden col-span-1 md:flex">
+                <!-- Image -->
             <img class="w-4/5 rounded-md" src="https://loopple.s3.eu-west-3.amazonaws.com/images/K2RRaBAGcPx1Qaa9EimfM0bQpbDoxxRHGlpXAFIh.png" alt="header image">
 
         </div>
 
     </section>
-
+            <!-- Logos Section -->
     <section class="w-full">
         <div class="container flex flex-col items-center gap-8 mx-auto my-40">
+            <!-- Logo Endorsement Title -->
             <p class="text-center text-dark-grey-600 font-semibold mb-10 text-2xl">
                 Endorsed by global companies like
-
             </p>
-
+                <!--Logos Container -->
         <div class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
+            <!-- Individual Logo -->
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="155" height="65" viewBox="0 0 184 65" fill="none">
                     <path d="M20.2765 64.8827C14.7995 64.6671 10.3185 63.1822 6.81467 60.4243C6.14599 59.8975 4.55259 58.3178 4.01802 57.6515C2.59718 55.8814 1.6312 54.1586 0.986896 52.2472C-0.995712 46.3634 0.0246651 38.6425 3.90547 30.1689C7.22826 22.9145 12.3555 15.7196 21.3007 5.75465C22.6183 4.28833 26.5423 0 26.5676 0C26.577 0 26.3631 0.367039 26.094 0.813998C23.7681 4.67396 21.778 9.22062 20.6939 13.1568C18.9523 19.4727 19.1624 24.8928 21.3091 29.0957C22.79 31.9911 25.3287 34.4991 28.1835 35.8855C33.1813 38.3117 40.4984 38.5124 49.4342 36.4728C50.0494 36.3315 80.535 28.3133 117.18 18.6541C153.826 8.99389 183.814 1.09648 183.818 1.10298C183.828 1.11136 98.6805 37.2115 54.4788 55.9399C47.4788 58.905 45.6068 59.654 42.3159 60.7988C33.9034 63.7258 26.3678 65.1224 20.2765 64.8827Z" fill="#1B2559"/>
@@ -190,11 +202,11 @@
         <!--Component 3: Features -->
         <!--FEATURES -->
 
-        <div class="container mx-auto py-10 flex flex-col items-center justify-center">
+        <div class="mx-auto py-10 flex flex-col items-center justify-center">
             
             <!--HEADER SECTION-->
 
-        <div class=" flex flex-col items-center justify-center mt-12" >
+        <div class="flex flex-col items-center justify-center mt-12" >
               <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center">Elevate Your Banking with Cache</h1>
               <p class="text-lg text-center lg:w-7/12 text-dark-grey-700">We merge cutting-edge banking with a deep understanding of software developers' needs. Experience tailored financial solutions, advanced security, and tech-focused support designed just for you.</p>  
             </div>
@@ -509,9 +521,9 @@
     </div>
     </div>
     
-    <script>
+    <!--<script>
     document.getElementById("mobile-menu-toggle").addEventListener("click", function() {document.getElementById('mobile-menu').classList.toggle('hidden');})
-    </script>
+    </script> -->
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
