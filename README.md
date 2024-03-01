@@ -8,17 +8,32 @@
   # Component 1
   -Navigation bar.
 
+  Master mobile-first design principles.
+  Implement a toggle for the navigation menu on small screens using JavaScript.
+
   # Component 2
   -Hero Section and Endorsements.
 
+  Utilise Tailwind CSS to create a visually appealing hero section.
+  Understand layout techniques that make your content stand out.
+
   # Component 3
-  -Features
+  -Features.
+
+  Apply grid and Flexbox layouts for a consistent design.
+  Use Tailwind classes to maintain a cohesive look and feel.
 
   # Component 4
-  -Statistics
+  -Statistics.
+
+  Learn CSS layout techniques for presenting data.
+  Understand how to design compelling call-to-action sections.
 
   # Component 5
-  -Contacts and footer
+  -Contacts and footer.
+
+  Set up effective and user-friendly contact details.
+  Include essential elements in the footer like privacy policy, terms of use, and social media links.
 
 # Links
 
