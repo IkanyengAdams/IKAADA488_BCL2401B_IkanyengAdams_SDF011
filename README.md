@@ -6,6 +6,8 @@
 
 # Links
 
+-[presentation](https://docs.google.com/presentation/d/1BKTVjM4S_Bn-nijpdGn-dqrYU9S_tmXk/edit?usp=sharing&ouid=100132019097983401853&rtpof=true&sd=true)
+
 
 
 
